@@ -1,0 +1,46 @@
+# ---- Secrets / environment ----
+.env
+.env.local
+.env.*.local
+
+# ---- Telegram session (account credentials) ----
+telegram-auth/sessions/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Playwright local browser cache ----
+.playwright/
+
+# ---- Logs ----
+*.log
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+
+# ---- Claude Code local settings ----
+.claude/settings.local.json
+.claude/*.local.json
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Folders outside this project ----
+/Office-Word-MCP-Server/
